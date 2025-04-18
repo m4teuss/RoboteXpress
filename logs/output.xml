@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.11.3 on win32)" generated="2025-04-18T20:48:20.975428" rpa="false" schemaversion="5">
+<suite id="s1" name="Online" source="C:\Users\MateusSilva\Desktop\github\mateus\RoboteXpress\online.robot">
+<test id="s1-t1" name="Webapp deve estar Online" line="8">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-04-18T20:48:21.227231" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\MateusSilva\\Desktop\\github\\mateus\\RoboteXpress\\logs\\browser\\traces\\temp\\4e026fce-a508-4b6c-a876-dfdb3b617487"}</msg>
+<msg time="2025-04-18T20:48:21.275320" level="INFO">Starting Browser process C:\Python311\Lib\site-packages\Browser\wrapper\index.js using port 51246</msg>
+<msg time="2025-04-18T20:48:21.276323" level="INFO">Node startup parameters: ['node', 'C:\\Python311\\Lib\\site-packages\\Browser\\wrapper\\index.js', '51246']</msg>
+<msg time="2025-04-18T20:48:23.188050" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\MateusSilva\\Desktop\\github\\mateus\\RoboteXpress\\logs\\browser\\traces\\temp\\4e026fce-a508-4b6c-a876-dfdb3b617487"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-04-18T20:48:21.227231" elapsed="1.960819"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-04-18T20:48:25.418322" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000</msg>
+<msg time="2025-04-18T20:48:25.418322" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>http://localhost:3000</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-04-18T20:48:23.215311" elapsed="2.204011"/>
+</kw>
+<kw name="Get Title" owner="Browser">
+<msg time="2025-04-18T20:48:25.482462" level="INFO">Title: 'Mark85 by QAx'</msg>
+<arg>equal</arg>
+<arg>Mark85 by QAx</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2025-04-18T20:48:25.420319" elapsed="0.063149"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-04-18T20:48:35.489298" level="INFO">Slept 10 seconds.</msg>
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-04-18T20:48:25.484977" elapsed="10.005347"/>
+</kw>
+<msg time="2025-04-18T20:48:35.515868" level="INFO">Set timeout to: 10000</msg>
+<msg time="2025-04-18T20:48:35.628853" level="INFO">Switching context to context=339adecd-1d25-4561-ba61-b8b708c3b9b4 in CURRENT</msg>
+<msg time="2025-04-18T20:48:35.704313" level="INFO">Successfully changed active context: context=339adecd-1d25-4561-ba61-b8b708c3b9b4</msg>
+<msg time="2025-04-18T20:48:35.970264" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-04-18T20:48:21.225728" elapsed="14.267964"/>
+</test>
+<doc>Online</doc>
+<status status="PASS" start="2025-04-18T20:48:20.977947" elapsed="15.009374"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Online" id="s1" pass="1" fail="0" skip="0">Online</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

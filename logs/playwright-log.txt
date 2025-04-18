@@ -1,0 +1,31 @@
+{"level":30,"time":"2025-04-18T23:48:22.720Z","pid":33772,"hostname":"ELECTRA","msg":"Listening on 51246"}
+(node:33772) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-04-18T23:48:22.871Z","pid":33772,"hostname":"ELECTRA","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-18T23:48:23.184Z","pid":33772,"hostname":"ELECTRA","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-04-18T23:48:23.185Z","pid":33772,"hostname":"ELECTRA","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-18T23:48:23.185Z","pid":33772,"hostname":"ELECTRA","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-18T23:48:23.224Z","pid":33772,"hostname":"ELECTRA","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-18T23:48:23.224Z","pid":33772,"hostname":"ELECTRA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-18T23:48:23.298Z","pid":33772,"hostname":"ELECTRA","msg":"Changed active context"}
+{"level":30,"time":"2025-04-18T23:48:24.126Z","pid":33772,"hostname":"ELECTRA","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-18T23:48:24.127Z","pid":33772,"hostname":"ELECTRA","msg":"Changed active page"}
+{"level":30,"time":"2025-04-18T23:48:25.415Z","pid":33772,"hostname":"ELECTRA","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-18T23:48:35.525Z","pid":33772,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T23:48:35.552Z","pid":33772,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T23:48:35.570Z","pid":33772,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T23:48:35.587Z","pid":33772,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T23:48:35.607Z","pid":33772,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T23:48:35.620Z","pid":33772,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T23:48:35.636Z","pid":33772,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T23:48:35.656Z","pid":33772,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T23:48:35.679Z","pid":33772,"hostname":"ELECTRA","msg":"Changed active context"}
+{"level":30,"time":"2025-04-18T23:48:35.680Z","pid":33772,"hostname":"ELECTRA","msg":"Changing current active page: page=610639ae-d2d1-4569-ae21-8738a079b73f"}
+{"level":30,"time":"2025-04-18T23:48:35.680Z","pid":33772,"hostname":"ELECTRA","msg":"Changed active page"}
+{"level":30,"time":"2025-04-18T23:48:35.712Z","pid":33772,"hostname":"ELECTRA","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-04-18T23:48:35.824Z","pid":33772,"hostname":"ELECTRA","msg":"Removed page=2126debc-b455-41e9-9bc4-f335b8f3020c from context=339adecd-1d25-4561-ba61-b8b708c3b9b4 page stack"}
+{"level":30,"time":"2025-04-18T23:48:35.961Z","pid":33772,"hostname":"ELECTRA","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-04-18T23:48:36.005Z","pid":33772,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T23:48:36.005Z","pid":33772,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T23:48:36.214Z","pid":33772,"hostname":"ELECTRA","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-18T23:48:36.511Z","pid":33772,"hostname":"ELECTRA","msg":"End of node method closeAllBrowsers"}
