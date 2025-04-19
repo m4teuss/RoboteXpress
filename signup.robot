@@ -18,7 +18,7 @@ Deve poder cadastrar um novo usuário
     Fill Text    id=name         Mateus
     Fill Text    id=email        mateus@gmail.com    
     Fill Text    id=password     123456
-
+    Click        id=buttonSignup 
 
 
 

@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.11.3 on win32)" generated="2025-04-18T21:02:37.034662" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.11.3 on win32)" generated="2025-04-18T21:09:41.392774" rpa="false" schemaversion="5">
 <suite id="s1" name="Signup" source="C:\Users\MateusSilva\Desktop\github\mateus\RoboteXpress\signup.robot">
 <test id="s1-t1" name="Deve poder cadastrar um novo usuário" line="7">
 <kw name="New Browser" owner="Browser">
-<msg time="2025-04-18T21:02:37.253470" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\MateusSilva\\Desktop\\github\\mateus\\RoboteXpress\\logs\\browser\\traces\\temp\\ccad4e4c-4c53-4172-ab3c-e19a28ea02a8"}</msg>
-<msg time="2025-04-18T21:02:37.280607" level="INFO">Starting Browser process C:\Python311\Lib\site-packages\Browser\wrapper\index.js using port 51773</msg>
-<msg time="2025-04-18T21:02:37.280607" level="INFO">Node startup parameters: ['node', 'C:\\Python311\\Lib\\site-packages\\Browser\\wrapper\\index.js', '51773']</msg>
-<msg time="2025-04-18T21:02:38.644752" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\MateusSilva\\Desktop\\github\\mateus\\RoboteXpress\\logs\\browser\\traces\\temp\\ccad4e4c-4c53-4172-ab3c-e19a28ea02a8"}</msg>
+<msg time="2025-04-18T21:09:41.632663" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\MateusSilva\\Desktop\\github\\mateus\\RoboteXpress\\logs\\browser\\traces\\temp\\a87750b1-c4d1-4a65-b15c-712199b80150"}</msg>
+<msg time="2025-04-18T21:09:41.663298" level="INFO">Starting Browser process C:\Python311\Lib\site-packages\Browser\wrapper\index.js using port 51951</msg>
+<msg time="2025-04-18T21:09:41.663298" level="INFO">Node startup parameters: ['node', 'C:\\Python311\\Lib\\site-packages\\Browser\\wrapper\\index.js', '51951']</msg>
+<msg time="2025-04-18T21:09:43.059849" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\MateusSilva\\Desktop\\github\\mateus\\RoboteXpress\\logs\\browser\\traces\\temp\\a87750b1-c4d1-4a65-b15c-712199b80150"}</msg>
 <arg>browser=chromium</arg>
 <arg>headless=False</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-04-18T21:02:37.252927" elapsed="1.392837"/>
+<status status="PASS" start="2025-04-18T21:09:41.631647" elapsed="1.428202"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-04-18T21:02:39.726389" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000/signup</msg>
-<msg time="2025-04-18T21:02:39.726389" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2025-04-18T21:09:44.238376" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000/signup</msg>
+<msg time="2025-04-18T21:09:44.238376" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>http://localhost:3000/signup</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-04-18T21:02:38.654198" elapsed="1.072191"/>
+<status status="PASS" start="2025-04-18T21:09:43.068387" elapsed="1.169989"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-04-18T21:02:39.804841" level="INFO">Waited for Element with selector css=h1 at state visible</msg>
+<msg time="2025-04-18T21:09:44.312286" level="INFO">Waited for Element with selector css=h1 at state visible</msg>
 <arg>css=h1</arg>
 <arg>visible</arg>
 <arg>5</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-04-18T21:02:39.726389" elapsed="0.078452"/>
+<status status="PASS" start="2025-04-18T21:09:44.239381" elapsed="0.072905"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2025-04-18T21:02:39.844064" level="INFO">Text: 'Faça seu cadastro'</msg>
+<msg time="2025-04-18T21:09:44.359838" level="INFO">Text: 'Faça seu cadastro'</msg>
 <arg>css=h1</arg>
 <arg>equal</arg>
 <arg>Faça seu cadastro</arg>
@@ -42,49 +42,57 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-18T21:02:39.804841" elapsed="0.039223"/>
+<status status="PASS" start="2025-04-18T21:09:44.313291" elapsed="0.047528"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-04-18T21:02:39.846119" level="INFO">Fills the text 'Mateus' in the given field.</msg>
+<msg time="2025-04-18T21:09:44.361834" level="INFO">Fills the text 'Mateus' in the given field.</msg>
 <arg>id=name</arg>
 <arg>Mateus</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-18T21:02:39.845067" elapsed="0.034593"/>
+<status status="PASS" start="2025-04-18T21:09:44.360819" elapsed="0.031081"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-04-18T21:02:39.881667" level="INFO">Fills the text 'mateus@gmail.com' in the given field.</msg>
+<msg time="2025-04-18T21:09:44.393979" level="INFO">Fills the text 'mateus@gmail.com' in the given field.</msg>
 <arg>id=email</arg>
 <arg>mateus@gmail.com</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-18T21:02:39.880666" elapsed="0.041287"/>
+<status status="PASS" start="2025-04-18T21:09:44.392934" elapsed="0.047343"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-04-18T21:02:39.925949" level="INFO">Fills the text '123456' in the given field.</msg>
+<msg time="2025-04-18T21:09:44.443777" level="INFO">Fills the text '123456' in the given field.</msg>
 <arg>id=password</arg>
 <arg>123456</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-18T21:02:39.922951" elapsed="0.037159"/>
+<status status="PASS" start="2025-04-18T21:09:44.442263" elapsed="0.054314"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-04-18T21:09:44.501598" level="INFO">Clicks the element 'id=buttonSignup'.</msg>
+<arg>id=buttonSignup</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-18T21:09:44.498605" elapsed="0.139519"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-04-18T21:02:44.961866" level="INFO">Slept 5 seconds.</msg>
+<msg time="2025-04-18T21:09:49.642556" level="INFO">Slept 5 seconds.</msg>
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-04-18T21:02:39.961102" elapsed="5.000764"/>
+<status status="PASS" start="2025-04-18T21:09:44.640126" elapsed="5.002430"/>
 </kw>
-<msg time="2025-04-18T21:02:44.983923" level="INFO">Set timeout to: 10000</msg>
-<msg time="2025-04-18T21:02:45.030552" level="INFO">Switching context to context=bf6d19dd-912b-4255-9775-acd52ec90c3e in CURRENT</msg>
-<msg time="2025-04-18T21:02:45.058822" level="INFO">Successfully changed active context: context=bf6d19dd-912b-4255-9775-acd52ec90c3e</msg>
-<msg time="2025-04-18T21:02:45.115062" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2025-04-18T21:02:37.251811" elapsed="7.712088"/>
+<msg time="2025-04-18T21:09:49.649584" level="INFO">Set timeout to: 10000</msg>
+<msg time="2025-04-18T21:09:49.671234" level="INFO">Switching context to context=0a23bca2-3cc9-4dc5-a096-25bd2f743e08 in CURRENT</msg>
+<msg time="2025-04-18T21:09:49.686743" level="INFO">Successfully changed active context: context=0a23bca2-3cc9-4dc5-a096-25bd2f743e08</msg>
+<msg time="2025-04-18T21:09:49.908516" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-04-18T21:09:41.630631" elapsed="8.012958"/>
 </test>
 <doc>Cénarios de testes do cadastro de usuários</doc>
-<status status="PASS" start="2025-04-18T21:02:37.037212" elapsed="8.086479"/>
+<status status="PASS" start="2025-04-18T21:09:41.394721" elapsed="8.525176"/>
 </suite>
 <statistics>
 <total>
