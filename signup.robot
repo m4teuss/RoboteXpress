@@ -13,10 +13,8 @@ Deve poder cadastrar um novo usuário
    ${email}       FakerLibrary.Email
     
    # Criando "Password" e inserindo valor  
-   ${password}        Set Task Variable    123456    
+   ${password}        Set Variable    123456    
    
-
-
 
     New Browser    browser=chromium    headless=False
     New Page    http://localhost:3000/signup
