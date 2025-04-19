@@ -30,8 +30,10 @@ Deve poder cadastrar um novo usuário
     Fill Text    id=email        ${email}    
     Fill Text    id=password     ${password}
     Click        id=buttonSignup 
+    
+    # Texto na tela e tem que estar visivel em até 5s
+    Wait For Elements State    css=.notice p     visible    5
+    # Validar o texto 
+    Get Text    css=.notice p    equal     Boas vindas ao Mark85, o seu gerenciador de tarefas.
 
-
-
-    Sleep        5
 
