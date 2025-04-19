@@ -9,8 +9,18 @@ Deve poder cadastrar um novo usuário
     New Page    http://localhost:3000/signup
 
     # Checkpoint (validando os passos do fluxo)
-    Wait For Elements State    xpath=//h1    visible   5
-    Get Text                   xpath=//h1    equal     Faça seu cadastro
+    Wait For Elements State    css=h1    visible   5
+   
+   # validando se frase da tela é "faça seu cadastro"
+    Get Text                   css=h1    equal     Faça seu cadastro
 
-    Sleep        10
+    # preencher campo com texto
+    Fill Text    id=name         Mateus
+    Fill Text    id=email        mateus@gmail.com    
+    Fill Text    id=password     123456
+
+
+
+
+    Sleep        5
 
