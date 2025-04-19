@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation    Cénarios de testes do cadastro de usuários 
 
-Library    Browser
+Resource    ../resources/base.robot
 Library    FakerLibrary
 
 
@@ -16,8 +16,11 @@ Deve poder cadastrar um novo usuário
    ${password}        Set Variable    123456    
    
 
-    New Browser    browser=chromium    headless=False
-    New Page    http://localhost:3000/signup
+    # Abre a pagina principal 
+    Start Session
+
+    # Abre uma pagina especifica
+    Go To        http://localhost:3000/signup
 
     # Checkpoint (validando os passos do fluxo)
     Wait For Elements State    css=h1    visible   5

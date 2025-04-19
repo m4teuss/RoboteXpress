@@ -1,57 +1,87 @@
-{"level":30,"time":"2025-04-19T00:39:52.627Z","pid":16812,"hostname":"ELECTRA","msg":"Listening on 52869"}
-(node:16812) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-04-19T00:57:32.079Z","pid":32332,"hostname":"ELECTRA","msg":"Listening on 53551"}
+(node:32332) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-04-19T00:39:52.976Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-04-19T00:39:53.214Z","pid":16812,"hostname":"ELECTRA","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
-{"level":30,"time":"2025-04-19T00:39:53.215Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-04-19T00:39:53.215Z","pid":16812,"hostname":"ELECTRA","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-04-19T00:39:53.227Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-04-19T00:39:53.227Z","pid":16812,"hostname":"ELECTRA","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-19T00:39:53.251Z","pid":16812,"hostname":"ELECTRA","msg":"Changed active context"}
-{"level":30,"time":"2025-04-19T00:39:53.713Z","pid":16812,"hostname":"ELECTRA","msg":"Video path: undefined"}
-{"level":30,"time":"2025-04-19T00:39:53.714Z","pid":16812,"hostname":"ELECTRA","msg":"Changed active page"}
-{"level":30,"time":"2025-04-19T00:39:54.772Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method newPage"}
-{"level":30,"time":"2025-04-19T00:39:54.784Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-19T00:39:54.784Z","pid":16812,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
-{"level":30,"time":"2025-04-19T00:39:54.849Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-19T00:39:54.857Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-19T00:39:54.857Z","pid":16812,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
-{"level":30,"time":"2025-04-19T00:39:54.945Z","pid":16812,"hostname":"ELECTRA","msg":"Retrieved text for element css=h1 containing Faça seu cadastro"}
-{"level":30,"time":"2025-04-19T00:39:54.945Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-19T00:39:54.955Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-19T00:39:54.955Z","pid":16812,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with id=name in page."}
-{"level":30,"time":"2025-04-19T00:39:54.978Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-19T00:39:54.986Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-19T00:39:54.986Z","pid":16812,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with id=email in page."}
-{"level":30,"time":"2025-04-19T00:39:55.010Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-19T00:39:55.027Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-19T00:39:55.028Z","pid":16812,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with id=password in page."}
-{"level":30,"time":"2025-04-19T00:39:55.077Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-19T00:39:55.084Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-19T00:39:55.084Z","pid":16812,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with id=buttonSignup in page."}
-{"level":30,"time":"2025-04-19T00:39:55.156Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method click"}
-{"level":30,"time":"2025-04-19T00:39:55.165Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-19T00:39:55.165Z","pid":16812,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-04-19T00:39:56.040Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-19T00:39:56.047Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-19T00:39:56.047Z","pid":16812,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-04-19T00:39:56.068Z","pid":16812,"hostname":"ELECTRA","msg":"Retrieved text for element css=.notice p containing Boas vindas ao Mark85, o seu gerenciador de tarefas."}
-{"level":30,"time":"2025-04-19T00:39:56.068Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-19T00:39:56.075Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-19T00:39:56.078Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-19T00:39:56.081Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-19T00:39:56.083Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-19T00:39:56.086Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-19T00:39:56.088Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-19T00:39:56.093Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-19T00:39:56.095Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-19T00:39:56.098Z","pid":16812,"hostname":"ELECTRA","msg":"Changed active context"}
-{"level":30,"time":"2025-04-19T00:39:56.098Z","pid":16812,"hostname":"ELECTRA","msg":"Changing current active page: page=1c51fa5e-c5e7-4051-9b72-df91e20f0ad6"}
-{"level":30,"time":"2025-04-19T00:39:56.098Z","pid":16812,"hostname":"ELECTRA","msg":"Changed active page"}
-{"level":30,"time":"2025-04-19T00:39:56.101Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-04-19T00:39:56.127Z","pid":16812,"hostname":"ELECTRA","msg":"Removed page=26b389ae-8bb1-4000-94c9-0ec71e5e86bb from context=60aac773-4f6e-4f48-a661-366b29d7c7dd page stack"}
-{"level":30,"time":"2025-04-19T00:39:56.279Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-04-19T00:39:56.329Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-19T00:39:56.330Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-19T00:39:56.479Z","pid":16812,"hostname":"ELECTRA","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-04-19T00:39:56.716Z","pid":16812,"hostname":"ELECTRA","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-19T00:57:32.393Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-19T00:57:32.683Z","pid":32332,"hostname":"ELECTRA","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-04-19T00:57:32.684Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-19T00:57:32.684Z","pid":32332,"hostname":"ELECTRA","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-19T00:57:32.699Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-19T00:57:32.700Z","pid":32332,"hostname":"ELECTRA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-19T00:57:32.771Z","pid":32332,"hostname":"ELECTRA","msg":"Changed active context"}
+{"level":30,"time":"2025-04-19T00:57:33.300Z","pid":32332,"hostname":"ELECTRA","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-19T00:57:33.300Z","pid":32332,"hostname":"ELECTRA","msg":"Changed active page"}
+{"level":30,"time":"2025-04-19T00:57:34.272Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-19T00:57:44.339Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:44.346Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:44.353Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:44.358Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:44.362Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:44.364Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:44.370Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:44.373Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:44.377Z","pid":32332,"hostname":"ELECTRA","msg":"Changed active context"}
+{"level":30,"time":"2025-04-19T00:57:44.377Z","pid":32332,"hostname":"ELECTRA","msg":"Changing current active page: page=fccea177-72c1-4c13-92c2-19f78721cd79"}
+{"level":30,"time":"2025-04-19T00:57:44.377Z","pid":32332,"hostname":"ELECTRA","msg":"Changed active page"}
+{"level":30,"time":"2025-04-19T00:57:44.384Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-04-19T00:57:44.406Z","pid":32332,"hostname":"ELECTRA","msg":"Removed page=a34c41a4-e407-4bd0-8082-fd973dfa1880 from context=fe2b9646-c986-4ac3-8ee9-bdf93f6eb741 page stack"}
+{"level":30,"time":"2025-04-19T00:57:44.502Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-04-19T00:57:44.581Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:44.582Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:45.256Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:45.257Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:45.260Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:45.260Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:45.268Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-04-19T00:57:45.268Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-04-19T00:57:45.271Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-19T00:57:45.271Z","pid":32332,"hostname":"ELECTRA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-19T00:57:45.280Z","pid":32332,"hostname":"ELECTRA","msg":"Changed active context"}
+{"level":30,"time":"2025-04-19T00:57:45.812Z","pid":32332,"hostname":"ELECTRA","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-19T00:57:45.813Z","pid":32332,"hostname":"ELECTRA","msg":"Changed active page"}
+{"level":30,"time":"2025-04-19T00:57:46.619Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-19T00:57:46.630Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-04-19T00:57:46.792Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method goTo"}
+{"level":30,"time":"2025-04-19T00:57:46.803Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-19T00:57:46.803Z","pid":32332,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-04-19T00:57:46.898Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-19T00:57:46.908Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-19T00:57:46.908Z","pid":32332,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-04-19T00:57:46.952Z","pid":32332,"hostname":"ELECTRA","msg":"Retrieved text for element css=h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-04-19T00:57:46.952Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-19T00:57:46.958Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-19T00:57:46.959Z","pid":32332,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2025-04-19T00:57:46.980Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-19T00:57:46.985Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-19T00:57:46.985Z","pid":32332,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-04-19T00:57:47.011Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-19T00:57:47.015Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-19T00:57:47.016Z","pid":32332,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-04-19T00:57:47.056Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-19T00:57:47.065Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-19T00:57:47.065Z","pid":32332,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with id=buttonSignup in page."}
+{"level":30,"time":"2025-04-19T00:57:47.144Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method click"}
+{"level":30,"time":"2025-04-19T00:57:47.148Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-19T00:57:47.148Z","pid":32332,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-04-19T00:57:47.259Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-19T00:57:47.268Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-19T00:57:47.269Z","pid":32332,"hostname":"ELECTRA","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-04-19T00:57:47.299Z","pid":32332,"hostname":"ELECTRA","msg":"Retrieved text for element css=.notice p containing Boas vindas ao Mark85, o seu gerenciador de tarefas."}
+{"level":30,"time":"2025-04-19T00:57:47.299Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-19T00:57:47.311Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:47.313Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:47.318Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:47.320Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:47.326Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:47.329Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:47.334Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:47.336Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:47.342Z","pid":32332,"hostname":"ELECTRA","msg":"Changed active context"}
+{"level":30,"time":"2025-04-19T00:57:47.342Z","pid":32332,"hostname":"ELECTRA","msg":"Changing current active page: page=4ad07a34-7f8d-41dc-9aa5-1c99136b2682"}
+{"level":30,"time":"2025-04-19T00:57:47.342Z","pid":32332,"hostname":"ELECTRA","msg":"Changed active page"}
+{"level":30,"time":"2025-04-19T00:57:47.349Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-04-19T00:57:47.381Z","pid":32332,"hostname":"ELECTRA","msg":"Removed page=be996d66-262e-472a-8974-692f5b50d602 from context=c9be8a96-ba37-4aa4-9d02-5fae276657dd page stack"}
+{"level":30,"time":"2025-04-19T00:57:47.580Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-04-19T00:57:47.607Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:47.607Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-19T00:57:47.689Z","pid":32332,"hostname":"ELECTRA","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-19T00:57:47.947Z","pid":32332,"hostname":"ELECTRA","msg":"End of node method closeAllBrowsers"}
